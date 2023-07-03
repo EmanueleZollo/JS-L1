@@ -77,6 +77,6 @@ let name1 = "john";
 let name2 = "John";
 console.log(name1 === name2 ? "Bravo, hai ragione": "No, hai sbagliato amico");
 
-let lCname1 = name1.toLowerCase;
-let lCname2 = name2.toLowerCase;
+let lCname1 = name1.toLowerCase();
+let lCname2 = name2.toLowerCase();
 console.log(lCname1 === lCname2 ? "Bravo, hai ragione": "No, hai sbagliato amico");
